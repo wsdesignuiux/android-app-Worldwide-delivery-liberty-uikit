@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4557d0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/worldwidelogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Worldwide delivery"
+        android:textColor="#ffffff"
+        android:textSize="27sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:gravity="center"
+        android:layout_marginRight="45dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liberty offers shipping to\n over 200 countries worldwide"
+        android:textColor="#e7ecef"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:paddingLeft="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"/>
+
+
+
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mediatransperent_ract"
+        android:text="Get Started"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:paddingRight="53dp"
+        android:paddingLeft="53dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
